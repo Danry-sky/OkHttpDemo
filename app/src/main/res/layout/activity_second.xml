@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_get_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示get请求"/>
+
+    <Button
+        android:id="@+id/btn_post_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示post请求"/>
+
+    <Button
+        android:id="@+id/btn_get_okhttputils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用okhttputils进行显示"/>
+
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到ImageSliderActivity"/>
+    <Button
+        android:id="@+id/btn_okhttp_imgslider"
+        android:text="跳转到OkHttpImageSliderActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_okhttp_list_img"
+        android:text="跳转到OKhttpListImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
+
+</LinearLayout>
